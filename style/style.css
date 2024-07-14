@@ -56,15 +56,58 @@ text-align: left;
   .header{
     background-image: url('../images/developer.png'), url(../images/header_bg.png);
     background-repeat: no-repeat;
-    width: 100%;
     background-position: top left, bottom right ;
+    background-color: rgb(255, 248, 243);
+}
+.section-title{
+  font-size: 36px;
+  font-weight: bold;
+  margin-bottom: 15px;
+text-align: center;
+}
+
+.section-description{
+  color: rgb(117, 117, 117);
+  font-size: 18px;
+  text-align: center;
+}
+
+main{
+  width: 1140px;
+  margin: 200px auto;
+}
+
+.text-center{
+  text-align: center;
+}
+
+.about{
+  border-radius: 10px;
+  padding: 80px 110px;
+  background: rgb(255, 248, 243);
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+}
+.about-me{
+/* border: 1px solid rgb(0, 0, 0); */
+/* background: rgb(255, 255, 255); */
+height: 200px;
 }
   .banner{
     display: flex;
-    justify-content: space-between;
-    margin: 70px 27px 0px 130px;
-    justify-content: ;
-  }
+    justify-content: space-around;
+    /* margin: 70px 27px 0px 130px; */
+  } 
+ .section-title{
+    color: rgb(24, 24, 24);
+    font-size: 36px;
+    font-weight: 700;
+    text-align: center;
+    padding-top: 10px;
+ }
+  
   /* banner styles */
   .hi{
     font-size: 25px;
@@ -92,3 +135,128 @@ text-align: left;
     max-width: 585px;
     height: 300px;
   }
+
+  .about-items{
+    text-align: center;
+    display: flex;
+    gap: 90px;
+  }
+
+  .item-title{
+    font-weight: 500;
+    font-size: 20px;
+    color: rgb(117, 117, 117);
+  }
+  .item-description{
+    font-weight: 700;
+    font-size: 20px;
+    color: rgb(71, 71, 71)
+  }
+/* skill section */
+
+.skills{
+  padding-top: 130px;
+}
+  .skills-container{
+    display: flex;
+    gap: 24px;
+    /* height: 400px; */
+  }
+
+  .skill-title{
+    padding-top: 30px;
+    padding-bottom: 20px;
+  }
+
+  .text-descript{
+    font-size: 16px;
+    font-weight: 600;
+    color: rgb(189,189,189);
+    padding-bottom: 50px;
+    width: 100%;
+height: 90px;
+  }
+  .skill-descrip{
+   color: rgb(118,118,118);
+   font-size: 16px;
+   font-weight: 400;
+   text-align: left;
+  }
+
+  .text-title{
+    padding-bottom: 30px;
+  }
+
+  .skill{
+    padding: 30px;
+    box-shadow: 0px 6px 50px 0px rgba(0, 0, 0, 0.06);
+    border-radius: 5px;
+    height: 300px;
+  }
+
+/* resume styles */
+
+.resume{
+display: flex;
+gap: 20px;
+}
+
+.resume-title{
+  text-align: center;
+  margin-top: 170px;
+  margin-bottom: 70px;
+  font-size: 35px;
+font-weight: 700;
+}
+
+/* education */
+.education{
+
+}
+
+.edu-title{
+color: rgb(71,71,71);
+font-size: 30px;
+font-weight: 700;
+padding-bottom: 20px;
+}
+
+.edu-qualific h4{
+  font-size: 20px;
+  font-weight: 600;
+  color: rgb(71, 71, 71);
+  padding-bottom: 8px;
+}
+
+.uni{
+  font-size: 15px;
+  font-weight: 600;
+  color: rgb(117, 117, 117);
+  padding-bottom: 15px;
+}
+
+.edu-description{
+  color: rgb(117, 117, 117);
+font-family: Open Sans;
+font-size: 13px;
+font-weight: 400;
+padding-bottom: 18px;
+}
+
+hr{
+  border: 1px solid rgb(209, 209, 209);
+}
+
+
+/* qualifications */
+.experience{
+
+}
+
+.qua-title{
+
+}
+
+.designation{
+
+}
